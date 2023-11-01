@@ -33,7 +33,7 @@ describe("Simple calculations", () => {
         });
 
         it("Is returning 8 when multiplying 2 * 4", () => {
-            assert.equal(2*4, 8);
+            assert.equal(2*4, 80);
         });
     });
 })
