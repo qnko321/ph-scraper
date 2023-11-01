@@ -11,6 +11,11 @@
           with:
             node-version: '21.1.0'
             registry-url: 'https://registry.npmjs.org'
+        - run: |
+            echo "Current version from package.json:"
+            cat package.json | grep '"version":'
+            echo "Contents of NPM_TOKEN secret:"
+            echo ${{ secrets.NPM_TOKEN }}
         - run: npm ci
         - run: npm publish
           env:
