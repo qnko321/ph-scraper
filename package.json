@@ -1,6 +1,6 @@
 {
   "name": "ph-scraper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "API to scrape data off PornHub",
   "main": "src/index.js",
   "scripts": {
