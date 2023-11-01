@@ -1,0 +1,19 @@
+{
+  "name": "ph-scraper",
+  "version": "0.0.1",
+  "description": "API to scrape data off PornHub",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qnko321/ph-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qnko321/ph-scraper/issues"
+  },
+  "homepage": "https://github.com/qnko321/ph-scraper#readme"
+}
